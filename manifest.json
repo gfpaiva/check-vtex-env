@@ -1,0 +1,23 @@
+{
+  "name": "Check Vtex Env",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "Guilherme Paiva",
+  "description": "Poin the vtex enviroment on admin",
+  "homepage_url": "https://github.com/gfpaiva/check-vtex-env",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://*.vtexcommercestable.com.br/admin/a"
+  ],
+  "optional_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
